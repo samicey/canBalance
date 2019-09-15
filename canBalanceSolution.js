@@ -5,8 +5,8 @@
 
 function canBalance(array) {
   let leftArray = [];
-  let rightArray = [];
-  let leftArrayTotal = 0;
+  //let rightArray = [];
+  //let leftArrayTotal = 0;
   let rightArrayTotal = 0;
   let totalValues = array.reduce((acc, val)=>acc+val,0)
   if (totalValues%2 == 0 && totalValues>0){
