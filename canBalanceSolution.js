@@ -4,11 +4,11 @@
 
 
 function canBalance(array) {
-  let leftArray = [];
-  let rightArray = [];
-  let leftArrayTotal = 0;
-  let rightArrayTotal = 0;
-  let totalValues = array.reduce((acc, val)=>acc+val,0)
+  let leftArray = [],
+      rightArray = [],
+      leftArrayTotal = 0,
+      rightArrayTotal = 0,
+      totalValues = array.reduce((acc, val)=>acc+val,0);
   if (totalValues%2 == 0 && totalValues>0){
   let checker = totalValues/2;
   for(let i = 0; i<array.length;){
