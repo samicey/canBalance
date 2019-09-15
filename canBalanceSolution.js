@@ -10,7 +10,7 @@ function canBalance(array) {
   let rightArrayTotal = 0;
   let totalValues = array.reduce((acc, val)=>acc+val,0)
   if (totalValues%2 == 0 && totalValues>0){
-  let checker = totalValues/2;
+  let done = totalValues/2;
   for(let i = 0; i<array.length;){
     leftArrayTotal += array[0];
     leftArray.push(array.shift());
