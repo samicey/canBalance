@@ -6,19 +6,19 @@
 
 
 function canBalance(array) {
-<<<<<<< HEAD
+
   let leftArray = [],
       rightArray = [],
       leftArrayTotal = 0,
       rightArrayTotal = 0,
       totalValues = array.reduce((acc, val)=>acc+val,0);
-=======
+
   let leftArray = [];
   //let rightArray = [];
   //let leftArrayTotal = 0;
   let rightArrayTotal = 0;
   let totalValues = array.reduce((acc, val)=>acc+val,0)
->>>>>>> 81ef2b1c676d6eca323180fbf7cc6067bb1526d1
+
   if (totalValues%2 == 0 && totalValues>0){
   let done = totalValues/2;
   for(let i = 0; i<array.length;){
